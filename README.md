@@ -1,6 +1,6 @@
 # Trevor Zeiger | Data Science Portfolio
 
-Welcome to my professional portfolio! I’m Trevor Zeiger, a data-driven problem solver with a Bachelor of Science in Business Analytics and a Master of Science in Data Science (expected Spring 2025). 
+Welcome to my professional portfolio! I’m Trevor Zeiger, a data-driven problem solver with a Bachelor of Science in Business Analytics and a Master of Science in Data Science. 
 I bring 19+ years of leadership in retail management, now applying those skills to uncover insights, build predictive models, and improve business decision-making through analytics.
 
 This portfolio showcases selected projects in data science, machine learning, and analytics with real-world applications across retail, remote work, financial risk, and weather forecasting.
