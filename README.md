@@ -37,7 +37,7 @@ Developed a machine learning pipeline to classify fraudulent transactions. Techn
 
 - 📧 Email: trevorzeiger@gmial.com 
 - 🔗 LinkedIn:(https://www.linkedin.com/in/trevor-a-zeiger/) 
-- 🌐 Portfolio Website: [https://zeigs03.github.io](https://zeigs03.github.io)  
+- 🌐 Portfolio Website: [https://zeigs03.github.io]([https://zeigs03.github.io](https://github.com/Zeigs03/TrevorZeiger.github.io))  
 - 🗂️ GitHub: [https://github.com/Zeigs03](https://github.com/Zeigs03)
 
 ---
