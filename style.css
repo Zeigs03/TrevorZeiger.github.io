@@ -64,3 +64,10 @@ footer {
   background-color: #1f1f1f;
   border-top: 1px solid #333;
 }
+
+.projects-section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  overflow: visible;
+}
