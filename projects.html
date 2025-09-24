@@ -1,85 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects | Trevor Zeiger</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects · Trevor Zeiger</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body class="dark">
-  <header>
-    <h1>My Projects</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="#remote-work">Remote Work</a>
-      <a href="#weather">Weather</a>
-      <a href="#retail-sales">Retail Sales</a>
-      <a href="#avocado">Avocado</a>
-      <a href="#delivery">Delivery</a>
-      <a href="#synthetic">Synthetic Data</a>
-      <a href="#scraper">Scraper</a>
-      <a href="#staffing">Staffing</a>
-      <a href="#segmentation">Segmentation</a>
-      <a href="#fraud">Fraud Detection</a>
-    </nav>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="/">Trevor Zeiger</a>
+      <nav>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="Resume6.16.25.pdf" target="_blank" rel="noopener">Resume</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="projects-section">
-    <h2>Featured Projects</h2>
 
-    <div class="project" id="remote-work">
-      <h3><a href="projects/remote-work-salary-analysis/index.html">Remote Work Salary Analysis</a></h3>
-      <p>This project analyzed remote job postings across multiple industries using a cleaned and normalized dataset. I focused on understanding salary patterns by job type, experience level, and geographic preference. I created visualizations in Python using Seaborn and Matplotlib, and provided actionable insights for job seekers and HR departments exploring remote compensation strategy.</p>
+  <main class="container">
+    <h1>Projects</h1>
+    <p class="lead">A curated selection of analytics and data science work. Each project links to artifacts in this repository for fast review.</p>
+
+    <div class="grid">
+      <article class="card">
+        <h3>Remote Work Salary Analysis</h3>
+        <p>Explores salary distributions, industry differences, and role segmentation for remote positions.</p>
+        <div class="links">
+          <a href="Remote Work Salary Analysis.pdf" target="_blank" rel="noopener">White Paper</a>
+          <a href="Remote_Work_Data_Analysis_Code.pdf" target="_blank" rel="noopener">Analysis Code (PDF)</a>
+          <a href="Remote_Work_Salary_Analysis_Presentation.pptx" target="_blank" rel="noopener">Slide Deck</a>
+          <a href="Remote Work Salary Code.pdf" target="_blank" rel="noopener">Supplemental Code</a>
+          <a href="remote-work-salary.html">Project Page</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Colorado Weather Forecasting</h3>
+        <p>Time‑series forecasting of temperature and conditions for Colorado using historical datasets.</p>
+        <div class="links">
+          <a href="Denver Weather Analysis and Prediction.pdf" target="_blank" rel="noopener">Project PDF</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Avocado Sales & Volume Analysis</h3>
+        <p>Demand analysis of avocado sales with price elasticities and organic vs. conventional comparisons.</p>
+        <div class="links">
+          <a href="Avocado Sales and Volume Analysis.pdf" target="_blank" rel="noopener">Project PDF</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Food Delivery Profitability Dashboard</h3>
+        <p>Dashboard and analysis evaluating profitability by cuisine and order characteristics.</p>
+        <div class="links">
+          <a href="Food Delivery Profitability Dashboard.pdf" target="_blank" rel="noopener">Dashboard (PDF)</a>
+        </div>
+      </article>
+
+
+      <article class="card">
+        <h3>Additional Documents</h3>
+        <p>Supporting materials and credentials.</p>
+        <div class="links">
+          <a href="Diploma.pdf" target="_blank" rel="noopener">Diploma</a>
+          <a href="Resume5_2025.pdf" target="_blank" rel="noopener">Alternate Resume</a>
+        </div>
+      </article>
     </div>
+  </main>
 
-    <div class="project" id="weather">
-      <h3><a href="projects/colorado-weather-forecasting/index.html">Colorado Weather Forecasting</a></h3>
-      <p>Utilizing historical weather data from Colorado, I built regression models to predict temperature and conditions. The project incorporated feature engineering, exploratory visualizations, and predictive modeling using Scikit-learn. The results supported planning use cases, including weekly forecasting and trend reporting for local businesses or agencies.</p>
-    </div>
-
-    <div class="project" id="retail-sales">
-      <h3><a href="projects/retail-sales-forecasting/index.html">Retail Sales Forecasting</a></h3>
-      <p>This project involved forecasting future sales using historical retail data. I used time series analysis and machine learning models (XGBoost, ARIMA) to predict demand. Key outcomes included optimized inventory recommendations and enhanced sales strategy for seasonal planning, backed by interactive charts and scenario modeling.</p>
-    </div>
-
-    <div class="project" id="avocado">
-      <h3><a href="projects/avocado-price-trends/index.html">Avocado Price Trend Analysis</a></h3>
-      <p>Using Spark and Hive on a big data platform, I analyzed price trends and consumption volumes for avocados across U.S. regions. The project explored the distinction between conventional and organic avocados, highlighted top-volume markets, and surfaced actionable insights for grocery pricing strategy and sourcing decisions.</p>
-    </div>
-
-    <div class="project" id="delivery">
-      <h3><a href="projects/food-delivery-dashboard/index.html">Food Delivery Profitability Dashboard</a></h3>
-      <p>I built a dynamic dashboard to evaluate delivery profitability using SQL, Python, and Power BI. It included filters for geography, delivery type, and time periods. Profit margins, cost breakdowns, and customer behavior trends were visualized to aid data-driven decisions in delivery logistics and pricing strategies.</p>
-    </div>
-
-    <div class="project" id="synthetic">
-      <h3><a href="projects/synthetic-data-generator/index.html">Synthetic Data Generator for Retail</a></h3>
-      <p>To support model prototyping and maintain data privacy, I created a Python tool to generate realistic retail transaction data. The generator simulates customer baskets, timestamps, and item-level detail, with built-in support for both classification and regression targets. Ideal for ML model development and A/B testing.</p>
-    </div>
-
-    <div class="project" id="scraper">
-      <h3><a href="projects/remote-job-scraper/index.html">Remote Work Job Scraper</a></h3>
-      <p>Developed a Python web scraper using BeautifulSoup and Requests to gather remote job listings from multiple job boards. I standardized and cleaned the data into a unified format suitable for salary analysis, role frequency, and industry demand exploration. The resulting dataset fed into the Remote Work Salary project.</p>
-    </div>
-
-    <div class="project" id="staffing">
-      <h3><a href="projects/retail-staffing-model/index.html">Retail Staffing Efficiency Model</a></h3>
-      <p>This project applied logistic regression to model under- and over-staffing risks based on sales, traffic, and seasonal indicators. I developed an internal tool to assist retail managers with labor optimization, aiming to align staffing levels with customer flow and reduce overtime costs.</p>
-    </div>
-
-    <div class="project" id="segmentation">
-      <h3><a href="projects/customer-segmentation/index.html">Customer Segmentation for Grocery Store</a></h3>
-      <p>Using clustering algorithms (K-Means and DBSCAN), I segmented grocery customers based on shopping frequency, basket size, and product diversity. The model revealed distinct customer profiles, which can support targeted promotions and loyalty program design.</p>
-    </div>
-
-    <div class="project" id="fraud">
-      <h3><a href="projects/fraud-detection-pipeline/index.html">Fraud Detection Pipeline Architecture</a></h3>
-      <p>I designed an end-to-end fraud detection architecture using Apache NiFi, Kafka, Hive, and Spark. The solution ingests and processes real-time financial transactions, flags anomalies based on defined thresholds, and supports scalable alerting. This project demonstrates big data orchestration and real-time analytics.</p>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Trevor Zeiger</p>
+  <footer class="site-footer">
+    <div class="container small">© <span id="y2"></span> Trevor Zeiger</div>
   </footer>
+  <script>document.getElementById('y2').textContent = new Date().getFullYear();</script>
 </body>
 </html>
