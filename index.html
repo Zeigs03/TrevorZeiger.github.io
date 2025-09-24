@@ -1,67 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Trevor Zeiger | Data Scientist & Analyst</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trevor Zeiger · Data Science & Retail Analytics</title>
+  <meta name="description" content="Portfolio site for Trevor Zeiger — data science projects, resume, and certifications." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Trevor Zeiger</h1>
-    <p>Data Scientist | Business Analyst | Problem Solver</p>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="/">Trevor Zeiger</a>
+      <nav>
+        <a href="projects.html">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="Resume6.16.25.pdf" target="_blank" rel="noopener">Resume</a>
+      </nav>
+    </div>
   </header>
 
-  <nav>
-    <a href="#projects">Projects</a>
-    <a href="documents/Remote Work Salary Analysis.pdf" target="_blank">Remote Work Study (PDF)</a>
-    <a href="Resume.pdf" target="_blank">Resume</a>
-    <a href="https://github.com/Zeigs03" target="_blank">GitHub</a>
-  </nav>
 
   <main>
-    <section id="projects">
-      <h2>Featured Projects</h2>
+<!-- Hero -->
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Data‑Driven Retail Leader & Data Scientist</h1>
+        <p>I blend 19 years of store leadership with advanced analytics to forecast demand, optimize pricing and inventory, and build decision‑ready insights.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="projects.html">Explore Projects</a>
+          <a class="btn ghost" href="Resume6.16.25.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
+        </div>
+        <ul class="badges">
+          <li>MS, Data Science (2025)</li>
+          <li>BS, Business Analytics</li>
+          <li>Python · SQL · Spark · Power BI</li>
+        </ul>
+      </div>
+      <div class="hero-media">
+        <img class="headshot" src="TrevorZeiger.jfif" alt="Trevor Zeiger headshot" />
+      </div>
+    </section>
 
-      <div class="project">
+
+<!-- Highlights -->
+    <section class="container highlights">
+      <div class="card">
         <h3>Remote Work Salary Analysis</h3>
-        <p>Analyzing remote job postings to uncover salary trends by industry, role, and location using real-world data and visual insights.</p>
-        <a href="https://github.com/Zeigs03/TrevorZeiger.github.io/tree/main/Remote_Work_Salary_Analysis" target="_blank">GitHub Repository</a><br>
-        <a href="documents/Remote Work Salary Analysis.pdf" target="_blank">Project PDF</a><br>
-        <a href="documents/Remote_Work_Salary_Analysis_Presentation.pptx" target="_blank">Presentation Slides</a>
+        <p>Salary trends by industry, role, and location with code, white paper, and deck.</p>
+        <div class="links">
+          <a href="Remote_Work_Data_Analysis_Code.pdf" target="_blank" rel="noopener">Code (PDF)</a>
+          <a href="Remote Work Salary Analysis.pdf" target="_blank" rel="noopener">White Paper</a>
+          <a href="Remote_Work_Salary_Analysis_Presentation.pptx" target="_blank" rel="noopener">Slides</a>
+        </div>
       </div>
-
-      <div class="project">
+      <div class="card">
         <h3>Colorado Weather Forecasting</h3>
-        <p>Forecasting temperature and weather conditions using historical data and predictive modeling to support local planning.</p>
-        <a href="https://github.com/Zeigs03/TrevorZeiger.github.io/tree/main/Colorado_Weather_Forecasting" target="_blank">GitHub Repository</a><br>
-        <a href="documents/Denver Weather Analysis and Prediction.pdf" target="_blank">Project PDF</a>
+        <p>Forecasting temperature and conditions using historical weather data and ML.</p>
+        <div class="links">
+          <a href="Denver Weather Analysis and Prediction.pdf" target="_blank" rel="noopener">Project PDF</a>
+        </div>
       </div>
-
-      <div class="project">
-        <h3>Retail Sales Forecasting</h3>
-        <p>Predictive modeling of grocery retail sales to optimize inventory and improve profitability.</p>
-        <a href="https://github.com/Zeigs03/TrevorZeiger.github.io/tree/main/Retail_Sales_Forecasting" target="_blank">GitHub Repository</a>
+      <div class="card">
+        <h3>Avocado Sales & Volume</h3>
+        <p>Market analysis of pricing vs. volume (organic vs. conventional) with visuals.</p>
+        <div class="links">
+          <a href="Avocado Sales and Volume Analysis.pdf" target="_blank" rel="noopener">Project PDF</a>
+        </div>
       </div>
+    </section>
 
-      <div class="project">
-        <h3>Avocado Sales and Volume Analysis</h3>
-        <p>Exploring avocado pricing and volume trends across U.S. regions using big data tools like Hive and Spark.</p>
-        <a href="documents/Avocado Sales and Volume Analysis.pdf" target="_blank">Project PDF</a>
+
+<!-- About -->
+    <section id="about" class="container two-col">
+      <div>
+        <h2>About</h2>
+        <p>I'm a data scientist and retail leader focused on building practical analytics that improve store performance. My work spans forecasting, pricing, staffing, and operational dashboards. I prioritize clear, explainable methods and actionable outcomes.</p
       </div>
+      <div class="info-list">
+        <div>
+          <h4>Core Skills</h4>
+          <p>Python (pandas, scikit‑learn), SQL, Spark, Power BI, Tableau, Git/GitHub</p>
+        </div>
+        <div>
+          <h4>Education</h4>
+          <p>MS, Data Science — Bellevue University (2025)<br>BS, Business Analytics</p>
+        </div>
+        <div>
+          <h4>Certificates & Diploma</h4>
+          <p><a href="Diploma.pdf" target="_blank" rel="noopener">Diploma (PDF)</a></p>
+        </div>
+      </div>
+    </section>
 
-      <div class="project">
-        <h3>Food Delivery Profitability Dashboard</h3>
-        <p>Power BI dashboard built to evaluate profitability drivers for a food delivery business.</p>
-        <a href="documents/Food Delivery Profitability Dashboard.pdf" target="_blank">Dashboard Overview PDF</a>
+
+<!-- Contact -->
+    <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <p>Feel free to reach out for collaboration or opportunities.</p>
+      <div class="links-row">
+        <a class="link" href="https://github.com/Zeigs03" target="_blank" rel="noopener">GitHub</a>
+        <a class="link" href="mailto:trevor.zeiger@gmail.com">Email</a>
+        <!-- <a class="link" href="https://www.linkedin.com/in/trevorzeiger" target="_blank" rel="noopener">LinkedIn</a> -->
       </div>
     </section>
   </main>
 
-  <footer>
-    &copy; 2025 Trevor Zeiger | Built with HTML & CSS | <a href="mailto:zeigs03@gmail.com" style="color:#ffc107;">Contact Me</a>
-  </footer>
-</body>
-</html>
 
+  <footer class="site-footer">
+    <div class="container small">
+      © <span id="y"></span> Trevor Zeiger · Built with pure HTML/CSS on GitHub Pages
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>                                                                                                                                                                                                                                                              >
